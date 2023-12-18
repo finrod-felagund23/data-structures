@@ -11,6 +11,15 @@ public class  Main {
             dl.add(i);
 
         System.out.println(dl);
+        Integer[] int_arr = {4,2,1,5,7,2,5,8,1,90};
+
+//        for (int i = 0; i != 10; i++)
+//            int_arr[i] = i;
+
+        PQueue<Integer> pq = new PQueue<>(int_arr);
+
+        System.out.println(pq);
+
     }
 
 }
