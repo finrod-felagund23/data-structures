@@ -20,6 +20,9 @@ public class  Main {
 
         System.out.println(pq);
 
+
+        UnionFind uf = new UnionFind(20);
+        System.out.println(uf);
     }
 
 }
