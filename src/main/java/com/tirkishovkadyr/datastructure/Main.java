@@ -23,6 +23,12 @@ public class  Main {
 
         UnionFind uf = new UnionFind(20);
         System.out.println(uf);
+
+        HashTableQuadraticProbing<Integer, String> ht  = new HashTableQuadraticProbing<>(999);
+        for (int i = 0; i < 999; i++ ) {
+            ht.add(i, i+"");
+        }
+        System.out.println(ht);
     }
 
 }
