@@ -1,5 +1,7 @@
 package com.tirkishovkadyr.datastructure;
 
+import java.util.Arrays;
+
 public class  Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -29,6 +31,11 @@ public class  Main {
             ht.add(i, i+"");
         }
         System.out.println(ht);
+
+        SuffixArraySlow sa = new SuffixArraySlow("ABBABAABAA");
+        System.out.println(Arrays.toString(sa.getSa()));
+        System.out.println(Arrays.toString(sa.getLcpArray()));
+        System.out.println(sa);
     }
 
 }
