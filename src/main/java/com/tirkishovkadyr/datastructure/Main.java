@@ -36,6 +36,12 @@ public class  Main {
         System.out.println(Arrays.toString(sa.getSa()));
         System.out.println(Arrays.toString(sa.getLcpArray()));
         System.out.println(sa);
+
+        // Balanced Binary Tree
+        AVLTreeRecursive<Integer> tree = new AVLTreeRecursive<>();
+        for (int i = 0; i < 50; i++)
+            tree.insert((int) (Math.random() * 100));
+        System.out.println(tree.display());
     }
 
 }
